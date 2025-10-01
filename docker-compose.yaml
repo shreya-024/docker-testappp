@@ -1,6 +1,3 @@
-The provided YAML content is already well-formed and syntactically correct. All indentation and structural elements adhere to valid YAML specifications for a `docker-compose.yaml` file.
-
-```yaml
 services:
   mongo:
     image: mongo
@@ -32,4 +29,3 @@ services:
     environment:
       - MONGO_DB_USERNAME=admin
       - MONGO_DB_PWD=qwerty
-```
