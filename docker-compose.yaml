@@ -1,5 +1,5 @@
 services:
-  mongo:
+  mango:
     image: mango
     ports:
       - 27017:27017
