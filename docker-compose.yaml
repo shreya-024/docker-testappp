@@ -1,6 +1,6 @@
 services:
   mongo:
-    image: mango
+    image: mongo
     ports:
       - 27017:27017
     environment:
@@ -27,5 +27,5 @@ services:
     depends_on:
       - mongo
     environment:
-      - MONGO_DB_USERNAME=admin
-      - MONGO_DB_PWD=qwerty
+      MONGO_DB_USERNAME: admin
+      MONGO_DB_PWD: qwerty
